@@ -9,7 +9,7 @@ public class Mazzo {
 	public Mazzo () {
 		Lista = new ArrayList();
 		Carta oggetto1 = new Carta ();
-		String Seme [] = {"cuori", "quadri", "fiori", "picche"};
+		String Seme [] = {"spade", "coppe", "bastoni", "ori"};
 		
 		for (int i = 0; i < 4; i++) {
 			
